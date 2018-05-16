@@ -1,6 +1,7 @@
 import sqlite3
+from constants import DB
 
-conn = sqlite3.connect('C:/Users/Justin/PythonProjects/database/new.db')
+conn = sqlite3.connect(DB)
 
 cursor = conn.cursor()
 
